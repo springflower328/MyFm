@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "301272811234",
+    "firebase_url": "https://onlineradio-ddee8.firebaseio.com",
+    "project_id": "onlineradio-ddee8",
+    "storage_bucket": "onlineradio-ddee8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301272811234:android:87ae21195b346ac01640bb",
+        "android_client_info": {
+          "package_name": "com.topdo.admin.radiolive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301272811234-21bpfoud1miq59urob6lr95kb7dav7pv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topdo.admin.radiolive",
+            "certificate_hash": "5c4ba14f22cdfe1e776704bff1197832cc39c0e6"
+          }
+        },
+        {
+          "client_id": "301272811234-et1ig452qc1ghakvjqupkba2e25ci29m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn26brvLorMLvrLmjRiCOjRMaimL6ECNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301272811234-et1ig452qc1ghakvjqupkba2e25ci29m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

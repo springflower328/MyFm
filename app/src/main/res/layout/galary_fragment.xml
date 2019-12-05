@@ -1,0 +1,71 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            ads:cardCornerRadius="15dp"
+            ads:cardElevation="5dp"
+            ads:cardBackgroundColor="#403f3d"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="All Galleries"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+        </android.support.v7.widget.CardView>
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/playpausebtn"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"/>-->
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/galaryRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+
+        <com.example.jean.jcplayer.view.JcPlayerView
+            android:id="@+id/jcplayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
